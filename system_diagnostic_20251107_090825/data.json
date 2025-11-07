@@ -1,0 +1,17 @@
+{
+  "timestamp": "20251107_090825",
+  "user": "minimax",
+  "workspace_path": "/workspace",
+  "total_files": 102,
+  "total_directories": 51,
+  "subdirectories": [
+    {"name": ".git", "files": 69, "size_kb": 334},
+    {"name": "browser", "files": 5, "size_kb": 30},
+    {"name": "external_api", "files": 15, "size_kb": 221},
+    {"name": "system_diagnostic_20251107_090825", "files": 3, "size_kb": 17}
+  ],
+  "system_files": 135196,
+  "processes": 512,
+  "memory_mb": 30795,
+  "load_average": "3.03"
+}

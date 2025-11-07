@@ -1,0 +1,78 @@
+=== SYSTEM DIAGNOSTIC REPORT ===
+Generated: Fri Nov  7 09:08:25 CST 2025
+Hostname: matrix-agent-chat-cgb8-558d47f66b-bspvk
+User: minimax
+Working Directory: /workspace
+Shell: /bin/sh
+
+=== SYSTEM OVERVIEW ===
+Total files in current directory tree: 147
+System-wide file count: 135190 files
+Active processes: 512
+System memory: 30795 MB
+System load: 3.03
+Mounted filesystems: 10
+
+=== WORKSPACE STRUCTURE ANALYSIS ===
+Top-level items:
+total 51
+drwxr-xr-x+ 6 minimax minimax  4096 Nov  7 09:08 .
+drwxr-xr-x  1 root    root     4096 Nov  7 09:06 ..
+drwxr-xr-x+ 8 root    root     4096 Nov  7 09:07 .git
+-rw-r-xr--+ 1 root    root    14010 Nov  7 09:07 .gitignore
+-rw-r-xr--+ 1 root    root     6433 Nov  7 09:08 advanced_diagnostic.sh
+drwxrwxr-x+ 3 minimax minimax  4096 Nov  7 08:50 browser
+drwxrwxr-x+ 3 minimax minimax  4096 Nov  7 08:50 external_api
+-rw-r--r--  1 minimax minimax  1339 Nov  7 08:50 pyproject.toml
+-rw-r-xr--+ 1 root    root     4154 Nov  7 09:06 system_diagnostic.sh
+-rw-rw-r--+ 1 minimax minimax  3658 Nov  7 09:06 system_diagnostic_20251107_090644.zip
+drwxr-xr-x+ 2 minimax minimax  4096 Nov  7 09:08 system_diagnostic_20251107_090825
+lrwxrwxrwx  1 root    root       18 Nov  7 08:58 tmp -> /tmp/workspace_tmp
+-rw-r-xr--+ 1 root    root       99 Nov  7 08:58 workspace.json
+
+Subdirectories found:
+./.git
+./browser
+./external_api
+./system_diagnostic_20251107_090825
+
+=== DIRECTORY BREAKDOWN ===
+📁 browser: 5 files, 30K
+📁 external_api: 15 files, 221K
+📁 system_diagnostic_20251107_090825: 1 files, 4.5K
+📁 tmp: 0 files, 4.0K
+
+=== FILESYSTEM STATUS ===
+Filesystem                                                                                                              Size  Used Avail Use% Mounted on
+overlay                                                                                                                 492G  233G  239G  50% /
+tmpfs                                                                                                                    64M     0   64M   0% /dev
+tmpfs                                                                                                                    16G     0   16G   0% /sys/fs/cgroup
+alinas-ap-rhh1p1jl15.13bec248f04-ser25.us-east-1.tls.127.0.1.39-qZs8hMwv:/440581185696514051/331461434913136/workspace  1.0P   39T  986T   4% /workspace
+/dev/vda3                                                                                                               492G  233G  239G  50% /usr/share/zoneinfo/Etc/UTC
+shm                                                                                                                      64M     0   64M   0% /dev/shm
+tmpfs                                                                                                                    11G   12K   11G   1% /run/secrets/kubernetes.io/serviceaccount
+tmpfs                                                                                                                    16G     0   16G   0% /proc/acpi
+tmpfs                                                                                                                    16G     0   16G   0% /proc/scsi
+tmpfs                                                                                                                    16G     0   16G   0% /sys/firmware
+
+=== SYSTEM RESOURCES ===
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi        11Gi        11Gi        36Mi       8.2Gi        19Gi
+Swap:             0B          0B          0B
+
+=== NETWORK STATUS ===
+Listening ports: 0
+
+=== LARGE FILES (Top 10) ===
+44K	./external_api/data_sources/yahoo_source.py
+40K	./external_api/data_sources/booking_source.py
+28K	./external_api/data_sources/tripadvisor_source.py
+24K	./external_api/data_sources/twitter_source.py
+16K	./external_api/data_sources/pinterest_source.py
+16K	./.gitignore
+12K	./external_api/data_sources/commodities_source.py
+12K	./external_api/data_sources/client.py
+12K	./.git/objects/8d/2718fe42e6de5ce8d92f8acca63091149c0fe7
+12K	./.git/objects/44/33a7fc3fee9e319515db28e6a353af0a130197
+
+=== END OF MAIN REPORT ===

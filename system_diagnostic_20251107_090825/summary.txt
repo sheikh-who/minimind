@@ -1,0 +1,25 @@
+=== DIAGNOSTIC SUMMARY ===
+Timestamp: 20251107_090825
+User: minimax
+Working Directory: /workspace
+
+Workspace Statistics:
+  - Total items (immediate): 15
+  - Total files (recursive): 101
+  - Total directories: 51
+  - System files: 135195
+  - Active processes: 512
+  - System memory: 30795 MB
+
+Subdirectories archived:
+  📁 .git: 69 files, 334K → archive_.git_20251107_090825.zip (100K)
+  📁 browser: 5 files, 30K → archive_browser_20251107_090825.zip (7.9K)
+  📁 external_api: 15 files, 221K → archive_external_api_20251107_090825.zip (46K)
+  📁 system_diagnostic_20251107_090825: 2 files, 13K → archive_system_diagnostic_20251107_090825_20251107_090825.zip (1.8K)
+
+Generated Files:
+  📄 Main report: system_diagnostic_20251107_090825/main_system_report.txt
+  📦 Individual subdirectory archives: 4 files
+  📋 Summary: system_diagnostic_20251107_090825/summary.txt
+
+Total workspace size: 802K
